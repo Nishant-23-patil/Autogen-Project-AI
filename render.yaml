@@ -14,13 +14,13 @@ services:
       - key: MONGODB_COLLECTION
         value: weather_readings
       - key: SESSION_SECRET
-        sync: false
+        generateValue: true
       - key: SESSION_COOKIE_SECURE
         value: "true"
       - key: ENTRA_TENANT_ID
-        sync: false
+        value: 1a5409a9-a179-4efe-a26b-5a9ac72f1b37
       - key: ENTRA_CLIENT_ID
-        sync: false
+        value: adc565a4-9141-4e09-90b6-3704d6a4b87a
       - key: ENTRA_CLIENT_SECRET
         sync: false
       - key: ENTRA_REDIRECT_URI

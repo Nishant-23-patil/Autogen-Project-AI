@@ -24,7 +24,7 @@ Open `http://localhost:8000`. The `/healthz` endpoint checks MongoDB connectivit
 
 ## Deploy on Render
 
-The root `render.yaml` is a Render Blueprint for the web service. Connect the repository containing this project to Render and create a Blueprint. Add the values marked `sync: false` in the Render dashboard; do not commit credentials.
+The root `render.yaml` is a Render Blueprint for the web service. Connect the repository containing this project to Render and create a Blueprint. Add the values marked `sync: false` in the Render dashboard; Render generates the session signing secret automatically. Do not commit credentials.
 
 For Microsoft Entra sign-in:
 
