@@ -1,0 +1,5 @@
+.env
+autogen_ai/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
